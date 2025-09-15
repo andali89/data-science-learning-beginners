@@ -75,6 +75,7 @@ conda activate my_project
 激活后，你会发现命令行提示符的前面，`(base)` 变成了 `(my_project)`。这表明你已经成功进入了 `my_project` 环境。在此之后，你所有关于 `python` 和 `pip` 的操作，都将只在这个环境中生效。
 
 ![激活 Conda 环境示例]({{ site.baseurl}}/assets/img_ana/Section4_activate.png)
+
 *图：激活后，命令行提示符会显示当前环境名称（例如：(base)），如上图所示。*
 
 ### 4. 在环境中安装包

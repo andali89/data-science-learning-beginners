@@ -40,22 +40,25 @@ layout: post
 3.  **安装类型：** 选择为“Just Me”还是“All Users”。通常情况下，选择 **“Just Me”** 即可，这样会将 Anaconda 安装在你的用户目录下，避免权限问题。然后点击 **“Next”**。
 
     ![]({{ site.baseurl}}/assets/img_ana/5_Anaconda_in_2.png)
+
     *图：安装类型选择界面（推荐选择 “Just Me”）*
 
 4.  **选择安装路径：** 这一步非常重要！
 
     *   **建议：** 保持默认的安装路径。默认路径通常是 `C:\Users\YourUsername\anaconda3`。
-> ##### WARNING
->
-> **不要**将 Anaconda 安装在包含**空格**或**中文字符**的路径下！例如，`C:\Program Files` 或 `C:\Users\张三\Desktop` 这样的路径可能会导致未知的错误。如果你想自定义路径，请确保路径只包含英文字母和数字。
-{: .block-warning }
-    *   选择好路径后，点击 **“Next”**。
+
+    > **不要**将 Anaconda 安装在包含**空格**或**中文字符**的路径下！例如，`C:\Program Files` 或 `C:\Users\张三\Desktop` 这样的路径可能会导致未知的错误。如果你想自定义路径，请确保路径只包含英文字母和数字。
+    {: .block-warning }
+
+
+    * 选择好路径后，点击 **“Next”**。
 
     ![]({{ site.baseurl}}/assets/img_ana/5_Anaconda_in_3.png)
+    
     *图：选择安装路径（请避免空格与中文字符）*
 
-5.  **高级选项：** 这是最关键的一步，请务必注意！
-
+1.  **高级选项：** 这是最关键的一步，请务必注意！
+    
     *   你会看到两个选项：
         1.  `Add Anaconda3 to my PATH environment variable` (将 Anaconda3 添加到我的 PATH 环境变量中)
         2.  `Register Anaconda3 as my default Python 3.x` (将 Anaconda3 注册为我的默认 Python 3.x)
@@ -65,18 +68,21 @@ layout: post
     *   **总结：** **两个选项都勾选！** 然后点击 **“Install”** 开始安装。
 
     ![]({{ site.baseurl}}/assets/img_ana/5_Anaconda_in_4.png)
+
     *图：高级选项（建议两个选项都勾选以便初学者使用）*
 
-6.  **安装过程：** 安装过程会持续几分钟，请耐心等待。
+2.  **安装过程：** 安装过程会持续几分钟，请耐心等待。
 
     ![]({{ site.baseurl}}/assets/img_ana/5_Anaconda_in_5.png)
+
     *图：安装进度界面*
 
-7.  **安装完成：** 安装完成后，点击 **“Next”**。
+3.  **安装完成：** 安装完成后，点击 **“Next”**。
 
-8.  **完成：** 最后，你会看到一个感谢页面，取消勾选 “Launch Anaconda Navigator” 和 “Getting started with Anaconda”，然后点击 **“Finish”** 即可。
+4.  **完成：** 最后，你会看到一个感谢页面，取消勾选 “Launch Anaconda Navigator” 和 “Getting started with Anaconda”，然后点击 **“Finish”** 即可。
 
     ![]({{ site.baseurl}}/assets/img_ana/5_Anaconda_in_6.png)
+
     *图：安装完成界面*
 
 ## 验证安装
