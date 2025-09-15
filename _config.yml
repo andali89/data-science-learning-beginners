@@ -1,10 +1,11 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Python数据科学指南
+longtitle:        Python数据科学指南
+author:           Anda Li
+email:            andali1989@163.com
 description: >
-  Build Jekyll site with the GitBook style.
+  一本面向初学者的 Python 数据科学入门指南，涵盖数据分析、可视化、机器学习等核心内容，帮助你快速掌握实用技能。
+language:        zh-CN
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -14,12 +15,15 @@ baseurl:          '/jekyll-gitbook'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
+# remote_theme: sighingnow/jekyll-gitbook
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 toc:
   enabled: true
   h_min:   1
-  h_max:   3
+  h_max:   2
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /assets/gitbook/images/favicon.ico
@@ -50,16 +54,18 @@ exclude:
   - _drafts
 
 collections:
-  pages:
+  lesson1:
     output: true
     permalink: /:collection/:path/
+    title: 第一篇：Python数据科学入门                      # 新增：用于在侧栏显示的中文名称
   others:
     output: true
     permalink: /:collection/:path/
+    title: 其他                      # 新增：中文名称
 
 ordered_collections:
-  - posts
-  - pages
+  # - posts
+  - lesson1
   - others
 
 page_width: 800px

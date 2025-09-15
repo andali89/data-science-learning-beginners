@@ -1,9 +1,12 @@
 ---
-title: About others
-author: Tao He
+title: 课题组介绍
+author: Anda Li
 date: 2022-02-04
 category: Jekyll
 layout: post
 ---
 
-This is an about page for "others" in the collections.
+本指南由天津商业大学“商业数据挖掘”课程组组织编写，课题组成员包括李岸达（组长）、刘晓杰、陈芳和魏可可。本指南是“商业数据挖掘”课程的电子版资源，包含Python数据分析入门，常用数据挖掘算法，案例等内容。本课程面向数据科学与商业分析入门学习者，系统介绍数据挖掘的基础理论、常用方法与实战案例，并通过实验上机课程，提升学生实践能力。
+
+本指南不断更新中，感谢参与编写、测试与审校的师生，欢迎对内容提出反馈与改进建议。
+
