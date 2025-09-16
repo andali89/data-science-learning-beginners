@@ -51,7 +51,7 @@
             {% if site.ordered_collections %}
                 {% for label in site.ordered_collections %}
                     {% assign collection = site.collections | where: "label", label | first %}
-                    <p class="Chapter-label">{{ collection.title }}</p>
+                    <li class="Chapter-label">{{ collection.title }}</li>
                     {% if collection.output %}
                         {% if collection.label == "posts" %}
                             {% assign reversed_posts = site[collection.label] | reverse %}
