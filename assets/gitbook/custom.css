@@ -5,8 +5,6 @@
     margin: 0.8rem 0 0.4rem;
     padding: 0.18rem 0.6rem;
     font-weight: 700;    
-    color: #2b2b2b;
-    background-color: rgba(43, 140, 255, 0.06); /* 轻微高亮 */    
     border-radius: 4px;
     line-height: 1.3;
 }
