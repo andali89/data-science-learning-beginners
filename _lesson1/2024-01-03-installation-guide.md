@@ -141,7 +141,7 @@ layout: post
 ## 参考视频教程
 
 如果你更倾向于视频教学，可以参考这段安装演示（含下载、安装选项、PATH 设置、以及启动 Jupyter 的完整流程）：
-https://www.bilibili.com/video/BV1y6XGYUEP7/?spm_id_from=333.337.search-card.all.click
+[https://www.bilibili.com/video/BV1y6XGYUEP7/?spm_id_from=333.337.search-card.all.click](https://www.bilibili.com/video/BV1y6XGYUEP7/?spm_id_from=333.337.search-card.all.click)
 
 
 ## 结语

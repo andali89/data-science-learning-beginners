@@ -27,10 +27,10 @@ layout: post
 
 ## 中文教程与资源
 
-- **廖雪峰的 Python 教程（速查与示例）**：https://www.liaoxuefeng.com/wiki/1016959663602400  
+- **廖雪峰的 Python 教程（速查与示例）**：[https://www.liaoxuefeng.com/wiki/1016959663602400 ] (https://www.liaoxuefeng.com/wiki/1016959663602400)  
     结构清晰、示例丰富，适合快速查语法和常用用法。
 
-- **菜鸟教程（快速参考）**：https://www.runoob.com/python3/python3-tutorial.html  
+- **菜鸟教程（快速参考）**：[https://www.runoob.com/python3/python3-tutorial.html](https://www.runoob.com/python3/python3-tutorial.html)  
     简洁的语法说明与常见示例，便于印刷为速查卡片。
 
 ## 在线学习平台
