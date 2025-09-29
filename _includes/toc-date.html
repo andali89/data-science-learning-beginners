@@ -23,6 +23,7 @@
         }
     </script>
 
+    <script type="text/javascript" src="{{site.baseurl}}/assets/gitbook/chapter-title-expand.js"></script>
     <nav role="navigation">
         <div id="book-search-input" role="search">
             <input type="text" placeholder="Type to search" />
@@ -51,7 +52,12 @@
             {% if site.ordered_collections %}
                 {% for label in site.ordered_collections %}
                     {% assign collection = site.collections | where: "label", label | first %}
-                    <li class="Chapter-label">{{ collection.title }}</li>
+                    <li class="chapter chapter-title" name="chapter-title" data-level="1.1">
+                        <a href="javascript:void(0);" style="cursor: pointer;">
+                            {{ collection.title }}
+                            <i class="exc-trigger fa"></i>
+                        </a>
+                    <ul>
                     {% if collection.output %}
                         {% if collection.label == "posts" %}
                             {% assign reversed_posts = site[collection.label] | reverse %}
@@ -74,6 +80,8 @@
                                 {% endif %}
                             </li>
                         {% endfor %}
+                        </ul>
+                        </li>
 
                         {% if reversed_posts.size > 0 %}
                             <li class="divider"></li>

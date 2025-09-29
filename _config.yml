@@ -57,6 +57,10 @@ collections:
     output: true
     permalink: /:collection/:path/
     title: 第一篇：Python数据科学入门                      # 新增：用于在侧栏显示的中文名称
+  lesson2:
+    output: true
+    permalink: /:collection/:path/
+    title: 第二篇：Python数据科学进阶
   others:
     output: true
     permalink: /:collection/:path/
@@ -65,6 +69,7 @@ collections:
 ordered_collections:
   # - posts
   - lesson1
+  - lesson2
   - others
 
 page_width: 800px

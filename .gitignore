@@ -1,3 +1,6 @@
 _site/
 _draft/
 .jekyll-cache/
+.*/
+GEMINI.md
+todo_list.md

@@ -1,6 +1,6 @@
 ---
 ---
-.Chapter-label {
+.chapter-title > a {
     display: block;
     margin: 0.8rem 0 0.4rem;
     padding: 0.18rem 0.6rem;
