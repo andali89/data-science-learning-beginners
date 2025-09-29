@@ -16,7 +16,7 @@ layout: post
 
 > :gift: 温馨提示
 >
-> 配套资源：本章案例可以通过链接 —— <a href="{{ site.baseurl }}/assets/notebooks/lesson2/05-toy-case.ipynb" download>练习 Notebook</a> 下载。这样你就能一步步复现完整的案例。
+> 配套资源：本章案例可以通过链接 —— <a href="{{ site.baseurl }}/assets/notebooks/lesson2/05-toy-case.ipynb" target="_blank" download="05-toy-case.ipynb">练习 Notebook</a> 下载。这样你就能一步步复现完整的案例。
 {: .block-warning }
 
 ---

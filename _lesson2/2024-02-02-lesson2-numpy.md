@@ -15,7 +15,7 @@ layout: post
 
 > :gift: 温馨提示
 >
-> 配套资源：本章所有代码和配套资源可以点击如下连接下载——<a href="{{ site.baseurl }}/assets/notebooks/lesson2/02-numpy.ipynb" download="02-numpy.ipynb">练习 Notebook</a>、<a href="{{ site.baseurl }}/assets/data/lesson2/numpy/my_array.npy" download="my_array.npy">示例数组 my_array.npy</a> 与 <a href="{{ site.baseurl }}/assets/data/lesson2/numpy/my_arrays.npz" download="my_arrays.npz">示例数组集合 my_arrays.npz</a>。下载后，可在本地 Anaconda 环境（如 JupyterLab / Jupyter Notebook）中打开并运行这些文件以复现示例和练习。
+> 配套资源：本章所有代码和配套资源可以点击如下连接下载——<a href="{{ site.baseurl }}/assets/notebooks/lesson2/02-numpy.ipynb" target="_blank" download="02-numpy.ipynb">练习 Notebook</a>、<a href="{{ site.baseurl }}/assets/data/lesson2/numpy/my_array.npy" target="_blank" download="my_array.npy">示例数组 my_array.npy</a> 与 <a href="{{ site.baseurl }}/assets/data/lesson2/numpy/my_arrays.npz" target="_blank" download="my_arrays.npz">示例数组集合 my_arrays.npz</a>。下载后，可在本地 Anaconda 环境（如 JupyterLab / Jupyter Notebook）中打开并运行这些文件以复现示例和练习。
 {: .block-warning }
 
 ---

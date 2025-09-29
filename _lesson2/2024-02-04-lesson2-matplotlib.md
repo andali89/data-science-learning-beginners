@@ -17,7 +17,7 @@ layout: post
 
 > :gift: 温馨提示
 >
-> 配套资源：本章所有代码和配套资源可以点击如下连接下载 —— <a href="{{ site.baseurl }}/assets/notebooks/lesson2/04-matplotlib.ipynb" download>练习 Notebook</a>。下载好后，同学可以在自己的 Anaconda 环境内运行这些代码，这有助于你们快速掌握相关内容。
+> 配套资源：本章所有代码和配套资源可以点击如下连接下载 —— <a href="{{ site.baseurl }}/assets/notebooks/lesson2/04-matplotlib.ipynb" target="_blank"  download="04-matplotlib.ipynb">练习 Notebook</a>。下载好后，同学可以在自己的 Anaconda 环境内运行这些代码，这有助于你们快速掌握相关内容。
 {: .block-warning }
 
 ---
