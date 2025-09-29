@@ -22,6 +22,60 @@
             return true;
         }
     </script>
+    <script>
+        (function () {
+            'use strict';
+
+            function fixTOCAnchors() {
+                // 只处理 TOC 中的内部锚点，避免影响外部/下载链接
+                document.querySelectorAll('nav .summary a[href^="#"], nav .summary a[href*="%"]').forEach(function (a) {
+                    var href = a.getAttribute('href');
+                    if (!href || href === '#') return;
+
+                    var raw = href.replace(/^#/, '');
+                    var decoded;
+                    try { decoded = decodeURIComponent(raw); } catch (e) { decoded = raw; }
+
+                    // 尝试 decoded -> raw -> encoded(decoded)
+                    var target = document.getElementById(decoded) || document.getElementById(raw);
+                    if (!target) {
+                        try { target = document.getElementById(encodeURIComponent(decoded)); } catch (e) { /* ignore */ }
+                    }
+
+                    if (target && target.id) {
+                        var desired = '#' + target.id;
+                        if (href !== desired) {
+                            a.setAttribute('href', desired);
+                        }
+                    }
+                });
+            }
+
+            // Run on initial load
+            document.addEventListener('DOMContentLoaded', function () {
+                fixTOCAnchors();
+                // small delay in case other plugins modify TOC right after load
+                setTimeout(fixTOCAnchors, 50);
+            });
+
+            // If GitBook is present, also re-run after page changes
+            if (typeof gitbook !== 'undefined' && gitbook.events && gitbook.events.bind) {
+                gitbook.events.bind('page.change', function () {
+                    fixTOCAnchors();
+                    setTimeout(fixTOCAnchors, 50);
+                });
+            }
+
+            // Watch for dynamic changes inside the TOC and re-run fix when nodes are added
+            var toc = document.querySelector('nav .summary');
+            if (toc && window.MutationObserver) {
+                var mo = new MutationObserver(function () {
+                    fixTOCAnchors();
+                });
+                mo.observe(toc, { childList: true, subtree: true });
+            }
+        })();
+    </script>
 
     <script type="text/javascript" src="{{site.baseurl}}/assets/gitbook/chapter-title-expand.js"></script>
     <nav role="navigation">
