@@ -16,7 +16,7 @@ layout: post
 
 > :gift: 温馨提示
 >
-> 配套资源：本章所有代码和配套资源可以点击如下连接下载——[练习 Notebook]({{ site.baseurl }}/assets/notebooks/lesson2/03-pandas.ipynb) 和 [示例数据集 sales_data.csv]({{ site.baseurl }}/assets/data/lesson2/sales_data.csv)。 下载好后，同学可以上在自己的Anaconda环境内运行这些代码，这有助于你们快速掌握相关内容。
+配套资源：本章所有代码和配套资源可以点击如下连接下载——<a href="{{ site.baseurl }}/assets/notebooks/lesson2/03-pandas.ipynb" download="03-pandas.ipynb">练习 Notebook</a> 和 <a href="{{ site.baseurl }}/assets/data/lesson2/sales_data.csv" download="sales_data.csv">示例数据集 sales_data.csv</a>。下载好后，同学可以在自己的 Anaconda 环境内运行这些代码，这有助于你们快速掌握相关内容。
 {: .block-warning }
 ---
 
