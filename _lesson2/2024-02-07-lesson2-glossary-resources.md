@@ -93,8 +93,6 @@ layout: post
 ### 3. 在线课程与教程
 
 - **Kaggle Learn**: Kaggle 是一个著名的数据科学竞赛平台，它提供了一系列名为“Micro-Courses”的免费、精简、交互式教程，其中 **[Pandas](https://www.kaggle.com/learn/pandas)** 和 **[Data Visualization](https://www.kaggle.com/learn/data-visualization)** 课程质量非常高，强烈推荐。
-- **Corey Schafer's YouTube Channel**: 他的 Python 教程，特别是关于 **[Pandas](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)** 和 **[Matplotlib](https://www.youtube.com/playlist?list=PL-osiE80TeTqv_f22_eG6t5G-o_1o2V-G)** 的系列，以其清晰、循序渐进和实用的风格而广受好评，非常适合喜欢视频学习的初学者。
-- **Coursera / edX**: 在这些顶级的 MOOC 平台上，搜索“Python for Data Science”或“Data Analysis with Python”，可以找到许多由密歇根大学、杜克大学等名校开设的系统性课程。
 
 ### 4. 书籍推荐
 
@@ -106,10 +104,8 @@ layout: post
 理论学习后，必须通过实践来巩固。在这些平台上，你可以找到真实的数据集和问题来磨练你的技能。
 
 - **Kaggle**: 除了课程，Kaggle 的核心是**竞赛**和**数据集**。你可以下载各种各样有趣的数据集（从泰坦尼克号乘客名单到房价预测），并尝试自己进行分析。阅读和学习其他高手分享的代码（Notebooks）是快速成长的捷径。
-- **LeetCode / HackerRank**: 这两个平台以算法题著称，但它们同样提供了专门的数据库（SQL）和 Pandas 练习题，可以帮助你提升数据处理和查询的熟练度。
 
-### 6. 社区与邻近生态
+### 6. 相关包 
 
-- **Stack Overflow**: 这是全球最大的程序员问答社区。当你遇到一个具体的、通过搜索无法解决的编程问题时，可以在这里提问。提问前，请务必先搜索是否已有相同的问题，并学习如何提出一个“好问题”（提供背景、你的代码、错误信息和你已经尝试过的解决方法）。
 - **[Seaborn](https://seaborn.pydata.org/)**: 一个基于 Matplotlib 的高级可视化库。它用更少的代码就能绘制出更美观、更具统计意义的图表（如热力图、小提琴图等）。如果你想让你的图表更上一层楼，Seaborn 是首选。
 - **[Scikit-learn](https://scikit-learn.org/stable/)**: 当你准备从数据分析迈向预测建模（机器学习）时，Scikit-learn 是 Python 世界里无可争议的标准库。它提供了从线性回归到复杂分类器、聚类、降维等一系列工具。
