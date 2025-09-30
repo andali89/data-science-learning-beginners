@@ -23,7 +23,7 @@
         if (!element.classList.contains(TOGGLE_CLASS)) {
             element.classList.add(TOGGLE_CLASS);
         }
-        if (!element.classList.contains(ACTIVE_CLASS)) {
+        if (!element.classList.contains(ACTIVE_CLASS) && hasActiveDescendant(element)) {
             element.classList.add(ACTIVE_CLASS);
         }
     }
@@ -40,7 +40,7 @@
         if (element.classList.contains(TOGGLE_CLASS)) {
             element.classList.remove(TOGGLE_CLASS);
         }
-        if (element.classList.contains(ACTIVE_CLASS)) {
+        if (element.classList.contains(ACTIVE_CLASS) && !hasActiveDescendant(element)) {
             element.classList.remove(ACTIVE_CLASS);
         }
     }
