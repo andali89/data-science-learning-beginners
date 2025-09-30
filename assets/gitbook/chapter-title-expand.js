@@ -4,6 +4,7 @@
     var CHAPTER_SELECTOR = 'li.chapter-title';
     var ACTIVE_CHILD_SELECTOR = 'li.chapter.active';
     var TOGGLE_CLASS = 'expanded';
+    var ACTIVE_CLASS = 'active';
     var MANUAL_FLAG = 'chapterTitleManualExpanded';
 
     function hasActiveDescendant(element) {
@@ -22,6 +23,9 @@
         if (!element.classList.contains(TOGGLE_CLASS)) {
             element.classList.add(TOGGLE_CLASS);
         }
+        if (!element.classList.contains(ACTIVE_CLASS)) {
+            element.classList.add(ACTIVE_CLASS);
+        }
     }
 
     function collapse(element, options) {
@@ -35,6 +39,9 @@
 
         if (element.classList.contains(TOGGLE_CLASS)) {
             element.classList.remove(TOGGLE_CLASS);
+        }
+        if (element.classList.contains(ACTIVE_CLASS)) {
+            element.classList.remove(ACTIVE_CLASS);
         }
     }
 
