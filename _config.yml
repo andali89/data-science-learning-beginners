@@ -74,6 +74,7 @@ ordered_collections:
   # - posts
   - lesson1
   - lesson2
+  - lesson3
   - others
 
 page_width: 800px
