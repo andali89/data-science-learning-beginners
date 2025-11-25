@@ -61,6 +61,10 @@ collections:
     output: true
     permalink: /:collection/:path/
     title: 第二篇：Python数据科学进阶
+  lesson3:
+    output: true
+    permalink: /:collection/:path/
+    title: 第三篇：房屋价格预测实验案例
   others:
     output: true
     permalink: /:collection/:path/
