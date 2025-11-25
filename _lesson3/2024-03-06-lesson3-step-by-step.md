@@ -1,11 +1,12 @@
 ---
-title: 2. 房屋价格预测 - 步骤详解与模型指南
+title: 2. 房屋价格预测:步骤详解与模型指南
 author: Anda Li
 date: 2024-03-06
 category: Data Science Learning
 layout: post
 ---
-本指南是 [**房屋价格预测实验教学案例**]({% post_url 2024-03-05-lesson3-house-price-case %}) 的配套技术文档。
+
+本指南是 [**房屋价格预测实验教学案例**]({{ site.baseurl }}/data-science-learning-beginners/lesson3/2024-03-06-lesson3-step-by-step/) 的配套技术文档。
 
 在这里，我们将深入代码细节，一步步演示如何使用 Python (Pandas, Scikit-learn) 实现从数据清洗、探索性分析 (EDA) 到构建多元线性回归及高级模型 (CART, SVR, MLP) 的完整流程。请参照本指南完成代码编写，并将运行结果填入实验报告中。
 

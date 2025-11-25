@@ -14,8 +14,7 @@ layout: post
 > :memo: **实验流程说明**
 >
 > 本页面为实验任务说明书。请按照以下流程完成实验：
-> 1.  **下载模板**：点击下方链接下载实验报告 Word 模板。
-> 2.  **执行代码**：参考配套的 [**步骤详解与模型指南**]({% post_url 2024-03-06-lesson3-step-by-step %}) 完成代码编写与运行。
+> 2.  **执行代码**：参考配套的 [**步骤详解与模型指南**]({{ site.baseurl }}/data-science-learning-beginners/lesson3/2024-03-06-lesson3-step-by-step/) 完成代码编写与运行。
 > 3.  **填写报告**：将代码运行结果（截图、图表、指标）填入报告对应位置，并撰写分析结论。
 >
 > :gift: **资源下载**：<a href="{{ site.baseurl }}/assets/code/lesson3/天津商业大学学生实验报告模板2--管理学院.docx" target="_blank" download="天津商业大学学生实验报告模板2--管理学院.docx">点击下载实验报告模板 (.docx)</a>
