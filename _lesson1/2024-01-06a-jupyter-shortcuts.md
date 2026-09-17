@@ -1,10 +1,12 @@
 ---
-title: 6.1 Jupyter Notebook 常用快捷键速查表
+title: Jupyter Notebook 常用快捷键速查表
+nav_title: 附录：Jupyter 快捷键速查表
 author: Anda Li
 date: 2024-01-06 12:00:00 +0800
 category: Data Science Learning
 layout: post
 hide_title: true
+hide_sidebar_toc: true
 ---
 
 <div class="cheat-sheet">
