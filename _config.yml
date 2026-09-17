@@ -79,6 +79,9 @@ ordered_collections:
 
 page_width: 800px
 
+extra_css:
+  - assets/css/cheatsheet.css
+
 destination:      ./_site
 incremental:      false
 regenerate:       true
