@@ -4,6 +4,7 @@ author: Anda Li
 date: 2024-02-04 12:00:00 +0800
 category: Data Science Learning
 layout: post
+hide_title: true
 ---
 
 <div class="cheat-sheet">
