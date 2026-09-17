@@ -1,10 +1,12 @@
 ---
-title: 4.1 Matplotlib 常用操作速查表
+title: Matplotlib 常用操作速查表
+nav_title: 附录：Matplotlib 速查表
 author: Anda Li
 date: 2024-02-04 12:00:00 +0800
 category: Data Science Learning
 layout: post
 hide_title: true
+hide_sidebar_toc: true
 ---
 
 <div class="cheat-sheet">

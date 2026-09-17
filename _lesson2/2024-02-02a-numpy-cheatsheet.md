@@ -1,10 +1,12 @@
 ---
-title: 2.1 NumPy 常用操作速查表
+title: NumPy 常用操作速查表
+nav_title: 附录：NumPy 速查表
 author: Anda Li
 date: 2024-02-02 12:00:00 +0800
 category: Data Science Learning
 layout: post
 hide_title: true
+hide_sidebar_toc: true
 ---
 
 <div class="cheat-sheet">
