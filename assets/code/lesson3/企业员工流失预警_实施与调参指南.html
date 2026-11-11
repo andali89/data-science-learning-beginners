@@ -110,10 +110,16 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 </nav><main><h1>2. 企业员工流失预警实施与调参指南</h1><article><p>本指南带你完成从员工数据到预警模型的流程，并把参数调整放回正确的验证环节。配套 <code>hr_notebook.ipynb</code> 演示逻辑回归和随机森林；你需要自行补充第三种模型、ROC/AUC、参数实验和业务结论。每步先运行示例，再完成“自己动手”。无需追求固定准确率，重要的是过程可复现、证据能支持解释。</p>
 <h2 id="1">1. 准备环境与工作目录</h2>
-<p>先让 Python 能找到数据，再开始建模。将 Notebook 和 <code>HR_comma_sep.csv</code> 放在同一目录，在该目录启动 Jupyter；代码里的相对路径以当前工作目录为准。安装依赖需要网络，已安装依赖后的实验可在本地运行。</p>
+<p>安装依赖需要网络，已安装依赖后的实验可在本地运行。</p>
 <div class="codehilite"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>pandas<span class="w"> </span>numpy<span class="w"> </span>scikit-learn<span class="w"> </span>matplotlib<span class="w"> </span>seaborn<span class="w"> </span>notebook
 </code></pre></div>
 
+<blockquote>
+<p><strong>注意</strong>：
+以上代码可先不运行，Anaconda默认已经安装，当提示缺失响应包时再运行。以上代码不在Python或Jupyter notebook运行，在Powershell或CMD环境下运行。
+{: .block-warning }</p>
+</blockquote>
+<p>先让 Python 能找到数据，再开始建模。将 Notebook 和 <code>HR_comma_sep.csv</code> 放在同一目录，在该目录启动 Jupyter；代码里的相对路径以当前工作目录为准。</p>
 <div class="codehilite"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -575,4 +581,4 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <li><a href="https://scikit-learn.org/stable/api/index.html">scikit-learn API</a></li>
 <li><a href="https://scikit-learn.org/stable/common_pitfalls.html">预处理与数据泄漏</a></li>
 <li><a href="https://scikit-learn.org/stable/modules/model_evaluation.html">分类模型评价</a></li>
-</ul></article><footer>2. 企业员工流失预警实施与调参指南</footer><!-- source-sha256: 75a698306e367c468adab43095d8f10df7c78a279abb1bb0e2d89afabb70aa81 --></main></div></body></html>
+</ul></article><footer>2. 企业员工流失预警实施与调参指南</footer><!-- source-sha256: b15b437c5a23a0c476f3c5e1068182597109642791d2100946b8f9bf24441b00 --></main></div></body></html>
