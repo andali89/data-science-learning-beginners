@@ -30,7 +30,14 @@ course_previous:
 - Jupyter Notebook 或 PyCharm；依赖 pandas、numpy、scikit-learn、matplotlib、seaborn。
 - 将 `hr_notebook.ipynb` 和 `HR_comma_sep.csv` 放在同一工作目录，记录 Python 与主要库版本。
 
-{% include experiment-downloads.html %}
+> **配套材料下载**
+>
+> <a href="{{ site.baseurl }}/assets/code/lesson3/experiment1-guides.zip" target="_blank" download>实验指导书</a>
+>
+> <a href="{{ site.baseurl }}/assets/code/lesson3/天津商业大学学生实验报告模板--管理学院.docx" target="_blank" download>实验报告模板（Word）</a>
+>
+> <a href="{{ site.baseurl }}/assets/code/lesson3/hr-code-data.zip" target="_blank" download>数据及示例代码</a>
+{: .block-tip }
 
 ## 三、实验原理与方法
 
