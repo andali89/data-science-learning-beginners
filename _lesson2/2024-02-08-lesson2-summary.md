@@ -4,6 +4,9 @@ author: Anda Li
 date: 2024-02-08
 category: Data Science Learning
 layout: post
+course_next:
+  url: /lesson3/2026-11-11-01-lesson3-requirements/
+  title: 1. 企业员工流失预警实验要求
 ---
 
 恭喜你！如果你一路学习并亲手实践到了这里，你已经成功地迈出了进入数据分析世界最重要的一步。你不仅学习了 Python 中最核心的三个数据科学库的基本用法，更重要的是，你建立起了一个解决问题的思维框架。这为你后续更深入的学习打下了坚实的基础。

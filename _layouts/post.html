@@ -1,17 +1,19 @@
+{% assign course_previous = page.course_previous | default: page.previous %}
+{% assign course_next = page.course_next | default: page.next %}
 <!DOCTYPE HTML>
 <html lang="en" >
     <head>
 
         {%- include head.html -%}
 
-        {% if page.previous %}
-            <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
+        {% if course_previous %}
+            <link rel="prev" href="{{site.baseurl}}{{course_previous.url}}" />
         {% else %}
             <link rel="prev" href="{{site.baseurl}}/" />
         {% endif %}
 
-        {% if page.next %}
-            <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
+        {% if course_next %}
+            <link rel="next" href="{{site.baseurl}}{{course_next.url}}" />
         {% endif %}
     </head>
     <body>
@@ -35,8 +37,8 @@
                 <div class="body-inner">
                     {%- include body.html -%}
 
-                    {% if page.previous %}
-                        <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
+                    {% if course_previous %}
+                        <a href="{{site.baseurl}}{{course_previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{course_previous.title}}">
                             <i class="fa fa-angle-left"></i>
                         </a>
                     {% else %}
@@ -45,8 +47,8 @@
                         </a>
                     {% endif %}
 
-                    {% if page.next %}
-                        <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
+                    {% if course_next %}
+                        <a href="{{site.baseurl}}{{course_next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{course_next.title}}">
                             <i class="fa fa-angle-right"></i>
                         </a>
                     {% endif %}

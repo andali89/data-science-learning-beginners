@@ -4,3 +4,5 @@ _draft/
 .*/
 GEMINI.md
 todo_list.md
+__pycache__/
+scripts/

@@ -1,15 +1,16 @@
+{% assign course_next = page.course_next | default: page.next %}
 {
     "page": {
         "title": "Introduction",
         "level": "1.1",
         "depth": 1,
-        {% if page.next %}
+        {% if course_next %}
         "next": {
-            "title": "{{page.next.title}}",
+            "title": "{{course_next.title}}",
             "level": "1.2",
             "depth": 1,
-            "path": "{{page.next.path}}",
-            "ref": "{{page.next.path}}",
+            "path": "{{course_next.path | default: course_next.url}}",
+            "ref": "{{course_next.path | default: course_next.url}}",
             "articles": []
         },
         {% endif %}

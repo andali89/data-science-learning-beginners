@@ -51,6 +51,7 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 
 exclude:
   - _drafts
+  - scripts
 
 collections:
   lesson1:
@@ -64,7 +65,11 @@ collections:
   lesson3:
     output: true
     permalink: /:collection/:path/
-    title: 第三篇：房屋价格预测实验案例
+    title: 第三篇：企业员工流失预警实验案例
+  lesson4:
+    output: true
+    permalink: /:collection/:path/
+    title: 第四篇：房屋价格预测实验案例
   others:
     output: true
     permalink: /:collection/:path/
@@ -75,6 +80,7 @@ ordered_collections:
   - lesson1
   - lesson2
   - lesson3
+  - lesson4
   - others
 
 page_width: 800px
