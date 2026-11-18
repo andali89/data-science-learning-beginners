@@ -15,7 +15,8 @@ course_next:
 本指南使用 `House Prices Prediction.ipynb` 和 `House Prices Prediction_Advanced_Models.ipynb`。先运行基础 Notebook，再从进阶 Notebook 选用至少一种回归模型。将自己的结果填入实验报告。
 
 <!-- website-only:start -->
-[实验要求与下载]({{ site.baseurl }}/lesson4/2024-03-05-lesson4-house-price-case/) · [示例代码与数据（ZIP）]({{ site.baseurl }}/assets/code/lesson4/codes.zip) · [可视化与回归模型拓展]({{ site.baseurl }}/lesson4/2026-11-18-lesson4-extensions/)
+> [实验要求与下载]({{ site.baseurl }}/lesson4/2024-03-05-lesson4-house-price-case/) · <a href="{{ site.baseurl }}/assets/code/lesson4/codes.zip" download>示例代码与数据（ZIP）</a> · [可视化与回归模型拓展]({{ site.baseurl }}/lesson4/2026-11-18-lesson4-extensions/)
+{: .block-tip }
 <!-- website-only:end -->
 
 ## 1. 读取并检查数据
@@ -41,7 +42,10 @@ print('重复记录数', df.duplicated().sum())
 df.head()
 ```
 
-原版 Notebook 已验证可在 Python 3.11、Seaborn 0.10.0、NumPy 1.23.5、pandas 1.5.3、Matplotlib 3.6.3、SciPy 1.10.1 和 scikit-learn 1.2.2 的组合下运行。本次保留了原有的 Seaborn 绘图接口。若系统同时安装了 Seaborn 0.10.0 和 NumPy 1.26.x，热力图和柱状图可能报 `np.bool` 或 `np.float` 错误，先查看当前内核实际加载的版本。
+> **Seaborn 版本提示**
+>
+> 原版 Notebook 已验证可在 Python 3.11、Seaborn 0.10.0、NumPy 1.23.5、pandas 1.5.3、Matplotlib 3.6.3、SciPy 1.10.1 和 scikit-learn 1.2.2 的组合下运行。本次保留了原有的 Seaborn 绘图接口。若系统同时安装了 Seaborn 0.10.0 和 NumPy 1.26.x，热力图和柱状图可能报 `np.bool` 或 `np.float` 错误，先查看当前内核实际加载的版本。
+{: .block-warning }
 
 ## 2. 探索性数据分析
 
@@ -88,7 +92,12 @@ plt.show()
 
 ## 3. 数据划分与标准化
 
-先固定训练集与测试集。标准化用训练集均值与标准差，测试集复用同一变换。CART 可以直接使用原尺度特征。
+> **先划分，再标准化**
+>
+> 用训练集的均值与标准差进行标准化，测试集复用同一变换。
+{: .block-warning }
+
+CART 可以直接使用原尺度特征。
 
 ```python
 X = df.drop(columns='House_Price')

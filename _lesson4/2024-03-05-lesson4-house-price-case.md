@@ -17,11 +17,14 @@ course_next:
 <!-- website-only:start -->
 ## 实验材料
 
-- [实验报告模板（2026 年，Word）]({{ site.baseurl }}/assets/code/lesson4/天津商业大学学生实验报告模板2--管理学院.docx)
-- [实验指导书（Word）]({{ site.baseurl }}/assets/code/lesson4/《商业数据挖掘》实验指导书2.docx)
-- [代码与数据（ZIP）]({{ site.baseurl }}/assets/code/lesson4/codes.zip)
+> - <a href="{{ site.baseurl }}/assets/code/lesson4/天津商业大学学生实验报告模板2--管理学院.docx" download>实验报告模板（2026 年，Word）</a>
+> - <a href="{{ site.baseurl }}/assets/code/lesson4/《商业数据挖掘》实验指导书2.docx" download>实验指导书（Word）</a>
+> - <a href="{{ site.baseurl }}/assets/code/lesson4/codes.zip" download>代码与数据（ZIP）</a>
+>
+> 解压后打开 `codes` 文件夹，保持 Notebook 与 CSV 在同一目录。
+{: .block-tip }
 
-解压后打开 `codes` 文件夹，保持 Notebook 与 CSV 在同一目录。按[实施指南]({{ site.baseurl }}/lesson4/2024-03-06-lesson4-step-by-step/)完成实验；需要更多例子时阅读[可视化与回归模型拓展]({{ site.baseurl }}/lesson4/2026-11-18-lesson4-extensions/)。
+按[实施指南]({{ site.baseurl }}/lesson4/2024-03-06-lesson4-step-by-step/)完成实验；需要更多例子时阅读[可视化与回归模型拓展]({{ site.baseurl }}/lesson4/2026-11-18-lesson4-extensions/)。
 <!-- website-only:end -->
 
 ## 一、实验目的
@@ -64,4 +67,7 @@ course_next:
 
 根据自己的结果总结主要发现，讨论对房屋估价的启示和数据局限。系数表示控制模型中其他特征后的预测关联。若要判断装修或扩建能否提高房价，还需要额外的证据。
 
-按课堂安排，在 **2026 年 11 月 27 日中午 12 点前**将实验报告和代码打包交给学委。压缩包命名为 `学号+姓名+实验报告2`。
+> **实验提交**
+>
+> 按课堂安排，在 **2026 年 11 月 27 日中午 12 点前**将实验报告和代码打包交给学委。压缩包命名为 `学号+姓名+实验报告2`。
+{: .block-tip }
