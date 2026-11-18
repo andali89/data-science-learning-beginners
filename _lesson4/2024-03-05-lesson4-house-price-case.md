@@ -19,7 +19,7 @@ course_next:
 
 - [实验报告模板（2026 年，Word）]({{ site.baseurl }}/assets/code/lesson4/天津商业大学学生实验报告模板2--管理学院.docx)
 - [实验指导书（Word）]({{ site.baseurl }}/assets/code/lesson4/《商业数据挖掘》实验指导书2.docx)
-- [两个 Notebook 与数据（ZIP）]({{ site.baseurl }}/assets/code/lesson4/codes.zip)
+- [代码与数据（ZIP）]({{ site.baseurl }}/assets/code/lesson4/codes.zip)
 
 解压后打开 `codes` 文件夹，保持 Notebook 与 CSV 在同一目录。按[实施指南]({{ site.baseurl }}/lesson4/2024-03-06-lesson4-step-by-step/)完成实验；需要更多例子时阅读[可视化与回归模型拓展]({{ site.baseurl }}/lesson4/2026-11-18-lesson4-extensions/)。
 <!-- website-only:end -->
