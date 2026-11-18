@@ -15,8 +15,7 @@ course_next:
 本指南使用 `House Prices Prediction.ipynb` 和 `House Prices Prediction_Advanced_Models.ipynb`。先运行基础 Notebook，再从进阶 Notebook 选用至少一种回归模型。将自己的结果填入实验报告。
 
 <!-- website-only:start -->
-> [实验要求与下载]({{ site.baseurl }}/lesson4/2024-03-05-lesson4-house-price-case/) · <a href="{{ site.baseurl }}/assets/code/lesson4/codes.zip" download>示例代码与数据（ZIP）</a> · [可视化与回归模型拓展]({{ site.baseurl }}/lesson4/2026-11-18-lesson4-extensions/)
-{: .block-tip }
+
 <!-- website-only:end -->
 
 ## 1. 读取并检查数据

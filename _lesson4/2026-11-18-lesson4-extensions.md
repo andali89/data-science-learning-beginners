@@ -11,9 +11,7 @@ course_previous:
 
 本页为选读。实验要求比较多元线性回归与至少一种备选模型。下面的画图和调参示例可用于进一步分析。
 
-<!-- website-only:start -->
-[实验要求与下载]({{ site.baseurl }}/lesson4/2024-03-05-lesson4-house-price-case/) · [实施指南]({{ site.baseurl }}/lesson4/2024-03-06-lesson4-step-by-step/)
-<!-- website-only:end -->
+
 
 ## 图表选择
 
