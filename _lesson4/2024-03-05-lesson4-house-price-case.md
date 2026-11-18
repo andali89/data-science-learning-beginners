@@ -17,9 +17,9 @@ course_next:
 <!-- website-only:start -->
 ## 实验资料
 
-> - <a href="{{ site.baseurl }}/assets/code/lesson4/天津商业大学学生实验报告模板2--管理学院.docx" download>实验报告模板（2026 年，Word）</a>
-> - <a href="{{ site.baseurl }}/assets/code/lesson4/《商业数据挖掘》实验指导书2.docx" download>实验指导书（Word）</a>
-> - <a href="{{ site.baseurl }}/assets/code/lesson4/codes.zip" download>代码与数据（ZIP）</a>
+> - <a href="{{ site.baseurl }}/assets/code/lesson4/天津商业大学学生实验报告模板2--管理学院.docx" target="_blank" download>实验报告模板（2026 年，Word）</a>
+> - <a href="{{ site.baseurl }}/assets/code/lesson4/《商业数据挖掘》实验指导书2.docx" target="_blank" download>实验指导书（Word）</a>
+> - <a href="{{ site.baseurl }}/assets/code/lesson4/codes.zip" target="_blank" download>代码与数据（ZIP）</a>
 >
 > 解压后打开 `codes` 文件夹，保持 Notebook 与 CSV 在同一目录。
 {: .block-tip }
